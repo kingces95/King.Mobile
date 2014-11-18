@@ -107,9 +107,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\King.Mobile.Controls\IOS\IOS.csproj">
+    <ProjectReference Include="..\..\King.Mobile.Controls\IOS\King.Mobile.Controls.Platform %28iOS%29.csproj">
       <Project>{0ee1744f-2502-4f87-a8f5-e20d6592428a}</Project>
-      <Name>IOS</Name>
+      <Name>King.Mobile.Controls.Platform %28iOS%29</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\King.Mobile.Controls\Portable\King.Mobile.Controls.csproj">
       <Project>{95eb3f68-cebb-439a-ab0c-24d5b25b4cd7}</Project>

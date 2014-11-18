@@ -4,12 +4,12 @@ using System.Linq;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
-using King.Mobile.Controls.IOS;
+using King.Mobile.Controls;
 
 
 // A hard reference is required here. 
 // Apparently the build removes unreferenced assemblies from the deployment package. 
-[assembly: KingMobileControlsReference]
+//[assembly: KingMobileControlsReference]
 
 namespace MyApplication.iOS {
     public class Application {

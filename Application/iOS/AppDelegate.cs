@@ -11,7 +11,6 @@ using Xamarin.Forms.Platform.iOS;
 using MyApplication;
 using MyApplication.iOS;
 using System.Drawing;
-using King.Mobile.Controls.IOS;
 using System.Reflection;
 
 

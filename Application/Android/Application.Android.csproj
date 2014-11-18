@@ -35,7 +35,17 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
-    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <MonoDroidExtraArgs />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -90,9 +100,9 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\King.Mobile.Controls\Android\Android.csproj">
+    <ProjectReference Include="..\..\King.Mobile.Controls\Android\King.Mobile.Controls.Platform %28Android%29.csproj">
       <Project>{5d5da973-fd56-48ce-9561-2d578f90ce72}</Project>
-      <Name>Android</Name>
+      <Name>King.Mobile.Controls.Platform %28Android%29</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\King.Mobile.Controls\Portable\King.Mobile.Controls.csproj">
       <Project>{95eb3f68-cebb-439a-ab0c-24d5b25b4cd7}</Project>

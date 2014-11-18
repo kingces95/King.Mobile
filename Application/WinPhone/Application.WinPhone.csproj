@@ -160,9 +160,9 @@
       <Project>{95eb3f68-cebb-439a-ab0c-24d5b25b4cd7}</Project>
       <Name>King.Mobile.Controls</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\King.Mobile.Controls\WinPhone\King.Mobile.Controls.WinPhone.csproj">
+    <ProjectReference Include="..\..\King.Mobile.Controls\WinPhone\WinPhone.csproj">
       <Project>{b2e3a91e-ee44-4db0-8e98-44a8e5588c53}</Project>
-      <Name>King.Mobile.Controls.WinPhone</Name>
+      <Name>WinPhone</Name>
     </ProjectReference>
     <ProjectReference Include="..\Portable\Application.csproj">
       <Project>{6f799b3e-f6cc-4b8a-bb51-937451d8e850}</Project>

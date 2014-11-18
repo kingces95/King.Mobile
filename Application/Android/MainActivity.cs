@@ -13,7 +13,7 @@ using King.Mobile.Controls.Android;
 // A hard reference is not required. Every referenced assembly is, apparently, eagarly loaded
 //[assembly: KingMobileControlsReference]
 
-namespace CustomControlLibrary.Droid {
+namespace MyApplication.Android {
     
     [Activity(
         Label = "CustomControlLibrary", 

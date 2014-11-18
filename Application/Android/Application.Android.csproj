@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomControlLibrary.Droid</RootNamespace>
-    <AssemblyName>CustomControlLibrary.Android</AssemblyName>
+    <RootNamespace>Application.Android</RootNamespace>
+    <AssemblyName>Application.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -90,9 +90,9 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\King.Mobile.Controls\Android\King.Mobile.Controls.Android.csproj">
+    <ProjectReference Include="..\..\King.Mobile.Controls\Android\Android.csproj">
       <Project>{5d5da973-fd56-48ce-9561-2d578f90ce72}</Project>
-      <Name>King.Mobile.Controls.Android</Name>
+      <Name>Android</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\King.Mobile.Controls\Portable\King.Mobile.Controls.csproj">
       <Project>{95eb3f68-cebb-439a-ab0c-24d5b25b4cd7}</Project>

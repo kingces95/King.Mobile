@@ -11,7 +11,7 @@ using King.Mobile.Controls.IOS;
 // Apparently the build removes unreferenced assemblies from the deployment package. 
 [assembly: KingMobileControlsReference]
 
-namespace CustomControlLibrary.iOS {
+namespace MyApplication.iOS {
     public class Application {
         // This is the main entry point of the application.
         static void Main(string[] args) {

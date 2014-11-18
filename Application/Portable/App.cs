@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 
-namespace CustomControlLibrary {
+namespace MyApplication {
     public class App {
         public static Page GetMainPage() {
             return new ContentPage {

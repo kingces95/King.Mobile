@@ -22,7 +22,7 @@ namespace CustomControlLibrary.WinPhone {
             InitializeComponent();
 
             Forms.Init();
-            Content = CustomControlLibrary.App.GetMainPage().ConvertPageToUIElement(this);
+            Content = MyApplication.App.GetMainPage().ConvertPageToUIElement(this);
         }
     }
 }

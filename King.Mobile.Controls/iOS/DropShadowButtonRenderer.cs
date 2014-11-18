@@ -1,6 +1,6 @@
 ﻿using MonoTouch.UIKit;
 using King.Mobile.Controls;
-using King.Mobile.Controls.IOS;
+using King.Mobile.Controls.Platform;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -11,7 +11,7 @@ using Xamarin.Forms.Platform.iOS;
 
 [assembly: ExportRenderer(typeof(DropShadowButton), typeof(DropShadowButtonRenderer))]
 
-namespace King.Mobile.Controls.IOS {
+namespace King.Mobile.Controls.Platform {
 
     [AttributeUsage(AttributeTargets.Assembly)]
     public sealed class KingMobileControlsReferenceAttribute : Attribute { }
@@ -34,5 +34,4 @@ namespace King.Mobile.Controls.IOS {
             Control.Layer.ShadowOpacity = 0.8f;
         }
     }
-
 }

@@ -8,14 +8,14 @@ using MonoTouch.UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-using CustomControlLibrary;
-using CustomControlLibrary.iOS;
+using MyApplication;
+using MyApplication.iOS;
 using System.Drawing;
 using King.Mobile.Controls.IOS;
 using System.Reflection;
 
 
-namespace CustomControlLibrary.iOS {
+namespace MyApplication.iOS {
 
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 

@@ -8,7 +8,7 @@ using Android.Widget;
 using Android.OS;
 
 using Xamarin.Forms.Platform.Android;
-using King.Mobile.Controls.Android;
+//using King.Mobile.Controls.Android;
 
 // A hard reference is not required. Every referenced assembly is, apparently, eagarly loaded
 //[assembly: KingMobileControlsReference]

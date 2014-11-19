@@ -9,7 +9,7 @@ using King.Mobile.Controls;
 
 // A hard reference is required here. 
 // Apparently the build removes unreferenced assemblies from the deployment package. 
-//[assembly: KingMobileControlsReference]
+[assembly: King.Mobile.Controls.Platform.KingMobileControlsReference]
 
 namespace MyApplication.iOS {
     public class Application {

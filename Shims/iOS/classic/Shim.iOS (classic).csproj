@@ -118,9 +118,9 @@
       <Project>{95eb3f68-cebb-439a-ab0c-24d5b25b4cd7}</Project>
       <Name>King.Mobile.Controls</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Controls\Renderers\iOS\x32\King.Mobile.Controls.Platform %28iOS x32%29.csproj">
+    <ProjectReference Include="..\..\..\Controls\Renderers\iOS\classic\King.Mobile.Controls.Platform %28iOS classic%29.csproj">
       <Project>{0ee1744f-2502-4f87-a8f5-e20d6592428a}</Project>
-      <Name>King.Mobile.Controls.Platform %28iOS x32%29</Name>
+      <Name>King.Mobile.Controls.Platform %28iOS classic%29</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

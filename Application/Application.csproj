@@ -52,10 +52,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Controls\Platform\King.Mobile.Controls.Platform.csproj">
-      <Project>{62e151ea-d8ff-4506-b615-321699efe21c}</Project>
-      <Name>King.Mobile.Controls.Platform</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Controls\Portable\King.Mobile.Controls.csproj">
       <Project>{95eb3f68-cebb-439a-ab0c-24d5b25b4cd7}</Project>
       <Name>King.Mobile.Controls</Name>

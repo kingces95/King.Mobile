@@ -3,13 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
 using Xamarin.Forms.Platform.iOS;
 using System.Drawing;
 using Xamarin.Forms;
 using King.Mobile.Controls;
 using King.Mobile.Controls.Platform;
+
+#if __UNIFIED__
+using UIKit;
+using Foundation;
+#else
+using MonoTouch.UIKit;
+using MonoTouch.Foundation;
+#endif
 
 [assembly: ExportRenderer(typeof(KingLabel), typeof(KingLabelRenderer))]
 

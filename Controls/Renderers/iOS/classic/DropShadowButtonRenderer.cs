@@ -1,5 +1,4 @@
-﻿using MonoTouch.UIKit;
-using King.Mobile.Controls;
+﻿using King.Mobile.Controls;
 using King.Mobile.Controls.Platform;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,12 @@ using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using MonoTouch.Foundation;
+
+#if __UNIFIED__
+using UIKit;
+#else
+using MonoTouch.UIKit;
+#endif
 
 //[assembly: ExportRenderer(typeof(DropShadowButton), typeof(DropShadowButtonRenderer))]
  

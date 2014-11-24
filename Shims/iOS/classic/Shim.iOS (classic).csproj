@@ -60,13 +60,13 @@
     <ConsolePause>false</ConsolePause>
     <MtouchDebug>True</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchSdkVersion />
+    <MtouchSdkVersion>7.1</MtouchSdkVersion>
     <MtouchLink>Full</MtouchLink>
     <MtouchProfiling>False</MtouchProfiling>
     <MtouchExtraArgs />
     <MtouchFastDev>False</MtouchFastDev>
     <MtouchEnableGenericValueTypeSharing>False</MtouchEnableGenericValueTypeSharing>
-    <MtouchArch>Default, ARMv6</MtouchArch>
+    <MtouchArch>Default, ARMv7</MtouchArch>
     <MtouchUseLlvm>False</MtouchUseLlvm>
     <MtouchUseThumb>False</MtouchUseThumb>
     <MtouchUseSGen>False</MtouchUseSGen>

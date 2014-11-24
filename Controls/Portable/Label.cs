@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace King.Mobile.Controls {
 
-    //[RenderWith(typeof(KingLabelRenderer))]
+    [RenderWith(typeof(KingLabelRenderer))]
     public sealed class KingLabel : View {
     }
 }

@@ -1,15 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
+using King.Mobile.Controls;
+using King.Mobile.Controls.Platform;
+using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
+
+[assembly: ExportRenderer(typeof(KingLabel), typeof(KingLabelRenderer))]
 
 namespace King.Mobile.Controls.Platform {
     public class KingLabelRenderer : ViewRenderer<KingLabel, TextView> {

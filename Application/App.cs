@@ -22,6 +22,7 @@ namespace MyApplication {
             var headerType = Type.GetType(header);
 
             return new ContentPage {
+                //Content = new Label() { Text = "Hello World!!" }
                 Content = new KingLabel()
                 //Content = new DropShadowButton {
                 //    Text = "Hello, Forms !",

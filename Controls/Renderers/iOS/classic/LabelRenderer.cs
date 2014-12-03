@@ -17,8 +17,6 @@ using MonoTouch.UIKit;
 using MonoTouch.Foundation;
 #endif
 
-[assembly: ExportRenderer(typeof(KingLabel), typeof(KingLabelRenderer))]
-
 namespace King.Mobile.Controls.Platform {
 
     public sealed class KingLabelRenderer : ViewRenderer<KingLabel, UILabel> {

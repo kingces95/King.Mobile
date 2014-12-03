@@ -21,7 +21,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>Default, ARMv7</MtouchArch>
-    <MtouchLink>None</MtouchLink>
+    <MtouchLink>Full</MtouchLink>
     <MtouchDebug>True</MtouchDebug>
     <CodesignEntitlements>Info.plist</CodesignEntitlements>
     <MtouchSdkVersion>7.1</MtouchSdkVersion>

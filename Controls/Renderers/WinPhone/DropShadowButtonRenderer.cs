@@ -13,13 +13,9 @@ using System.Windows.Shapes;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.WinPhone;
 
-[assembly: ExportRenderer(typeof(DropShadowButton), typeof(DropShadowButtonRenderer))]
 namespace King.Mobile.Controls.WinPhone {
 
-    [AttributeUsage(AttributeTargets.Assembly)]
-    public sealed class KingMobileControlsReferenceAttribute : Attribute { }
-
-    public class DropShadowButtonRenderer : ButtonRenderer {
+    public class KingDropShadowButtonRenderer : ButtonRenderer {
         protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Button> e) {
             base.OnElementChanged(e);
         }

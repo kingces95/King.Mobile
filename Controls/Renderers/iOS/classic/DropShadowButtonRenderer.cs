@@ -14,36 +14,24 @@ using UIKit;
 using MonoTouch.UIKit;
 #endif
 
-//[assembly: ExportRenderer(typeof(DropShadowButton), typeof(DropShadowButtonRenderer))]
- 
 namespace King.Mobile.Controls.Platform {
 
-    [AttributeUsage(AttributeTargets.Assembly)]
-    public sealed class KingMobileControlsReferenceAttribute : Attribute { }
+    public class KingDropShadowButtonRenderer : ButtonRenderer {
+        protected override void OnElementChanged(ElementChangedEventArgs<Button> e) {
+            var foo = typeof(Foo);
+            base.OnElementChanged(e);
 
-    //[Preserve(AllMembers = true)]
-    public class Header { }
+            if (Control == null)
+                return;
 
-    public abstract class MyButtonRenderer : ButtonRenderer {
+            Control.Layer.ShadowColor = UIColor.Red.CGColor;
+            Control.Layer.ShadowOffset = new SizeF(12.0f, 12.0f);
+
+            Control.Layer.MasksToBounds = false;
+            Control.ClipsToBounds = false;
+            Control.Layer.ShadowRadius = 7;
+            Control.Layer.ShadowOffset = new SizeF(10, 10);
+            Control.Layer.ShadowOpacity = 0.8f;
+        }
     }
-
-    //[Preserve (AllMembers = true)]
-    //public class DropShadowButtonRenderer4 : ButtonRenderer {
-    //    protected override void OnElementChanged(ElementChangedEventArgs<Button> e) {
-
-    //        base.OnElementChanged(e);
-
-    //        if (Control == null)
-    //            return;
-
-    //        Control.Layer.ShadowColor = UIColor.Red.CGColor;
-    //        Control.Layer.ShadowOffset = new SizeF(12.0f, 12.0f);
-
-    //        Control.Layer.MasksToBounds = false;
-    //        Control.ClipsToBounds = false;
-    //        Control.Layer.ShadowRadius = 7;
-    //        Control.Layer.ShadowOffset = new SizeF(10, 10);
-    //        Control.Layer.ShadowOpacity = 0.8f;
-    //    }
-    //}
 }

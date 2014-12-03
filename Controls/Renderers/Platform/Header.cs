@@ -5,6 +5,6 @@ using System.Text;
 
 namespace King.Mobile.Controls.Platform {
 
-    public sealed class DropShadowButtonRenderer {
-    }
+    public sealed class KingDropShadowButtonRenderer { }
+    public sealed class KingLabelRenderer { }
 }

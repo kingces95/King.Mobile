@@ -12,14 +12,7 @@ namespace MyApplication {
             // "/Users/chrisking/Library/Developer/CoreSimulator/Devices/4911405A-B90D-4FAC-9A75-08582715E45C/
             //data/Applications/DD76311C-15EC-4E59-9AC2-E0A71EFD8CED/ApplicationiOS.app/King.Mobile.Controls.Platform.dll"
 
-
-            //var type = typeof(DropShadowButtonRenderer);
-            var assemblyName = ", King.Mobile.Controls.Platform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null";
-            var dropShadowButtonRenderer = "King.Mobile.Controls.Platform.DropShadowButtonRenderer" + assemblyName;
-            var dropShadowButtonRendererType = Type.GetType(dropShadowButtonRenderer);
-
-            var header = "King.Mobile.Controls.Platform.Header2" + assemblyName;
-            var headerType = Type.GetType(header);
+            var foo = typeof(King.Mobile.Controls.Platform.KingLabelRenderer);
 
             return new ContentPage {
                 //Content = new Label() { Text = "Hello World!!" }
@@ -34,3 +27,5 @@ namespace MyApplication {
     }
 
 }
+///Library/Developer/CoreSimulator/Devices/5B71B7AC-2ACD-492E-81BA-7D007FEB3AD4/
+///data/Containers/Bundle/Application/2B82A128-8E37-47C1-A004-70F3BE123AE3/ShimiOS.app/King.Mobile.Controls.Platform.dll

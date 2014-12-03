@@ -85,7 +85,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DropShadowButtonRenderer.cs" />
-    <Compile Include="KingLabelRenderer.cs" />
+    <Compile Include="LabelRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

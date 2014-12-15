@@ -16,12 +16,12 @@ namespace MyApplication {
 
             return new ContentPage {
                 //Content = new Label() { Text = "Hello World!!" }
-                Content = new KingLabel()
-                //Content = new DropShadowButton {
-                //    Text = "Hello, Forms !",
-                //    VerticalOptions = LayoutOptions.CenterAndExpand,
-                //    HorizontalOptions = LayoutOptions.CenterAndExpand,
-                //},
+                //Content = new KingLabel()
+                Content = new DropShadowButton {
+                    Text = "Hello, Forms !",
+                    VerticalOptions = LayoutOptions.CenterAndExpand,
+                    HorizontalOptions = LayoutOptions.CenterAndExpand,
+                },
             };
         }
     }
